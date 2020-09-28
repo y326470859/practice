@@ -1,0 +1,10 @@
+server:
+  port: 6003
+spring:
+  application:
+    name: springbootService
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:5000/eureka/
